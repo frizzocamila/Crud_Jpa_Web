@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F2F2F2;    
+}
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: #2C3740;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    text-decoration: none;
+    border: 2px solid #28594B;
+    border-radius: 5px;
+}
+a:hover, a:active {
+    background-color: #28594B;
+    color: white;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 400px;
+    height: 250px;
+    margin: 15px;  
+    padding: 15px;
+    color: black;
+    border: 2px solid #297350;
+    border-radius: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    position: relative;
+}
+img{
+    width: 40px;
+    height: 40px;
+    margin: 5px 0px;
+}
+.nome-card,.idade-card,.credito-card{
+    margin: 5px;
+}
+
+.footer {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+}
+.footer input{
+    background-color: #28594B;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+#btnBusca {
+    background-color: #28594B;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#nomeBusca {
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    border: 2px solid #297350;
+    font-size: 15px;
+}
+
+
+
+

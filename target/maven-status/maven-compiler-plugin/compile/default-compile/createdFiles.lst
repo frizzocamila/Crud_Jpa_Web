@@ -1,0 +1,5 @@
+model\dao\ConnFactory.class
+model\dao\InterfaceDao.class
+model\dao\DaoFactory.class
+model\dao\ClienteDaoJpa.class
+model\Cliente.class
